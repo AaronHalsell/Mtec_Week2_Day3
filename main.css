@@ -1,0 +1,50 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 100%;
+}
+
+h1 {
+    font-size: 90px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: "Myanmar Text", Arial, Helvetica, sans-serif;
+    line-height: 100px;
+}
+
+p {
+    font-size: 20px;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background: #052445;
+}
+
+.nav {
+    text-align: center;
+    padding: 15px;
+    background-color: #222222;
+}
+
+.nav li {
+    display: inline;
+    padding: 15px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+}
+
+.content-section {
+    padding-top: 200px;
+    text-align: center;
+    background: #052445 url(space-bg.png) top left no-repeat;
+    height: 1000px;
+}
